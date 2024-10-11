@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: hwb(0 71% 27%);
+    padding: 50px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+.hero {
+    text-align: center;
+    background-image: url('baground.jpg.jfif');
+    background-size: cover;
+    padding: 400px 0;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+
+.feature {
+    text-align: center;
+}
